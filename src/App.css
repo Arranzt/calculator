@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+.App{
+  background: rgb(0, 0, 0);
+  margin: 0 auto;
+  color: #fff;
+  height: 900px;
+  position: relative;
+  width: 563px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.result {
+  background: rgb(0, 0, 0);
+  justify-content: flex-end;
+  padding-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formula{
+  background-color: rgb(43, 43 ,43);
+  text-align: end;
+  height: 100px;
+  font-size: 40px;
+  color: #fff;
+  padding-right: 30px; 
+  line-height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.resultValue {
+  background-color: rgb(43, 43 ,43);
+  text-align: end;
+  height: 100px;
+  font-size: 70px;
+  color: #fff;
+  padding-right: 30px; 
+  line-height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  margin-top: 15px;
+}
+
+button {
+  align-items: center;
+  background: rgb(43, 43 ,43);
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 45px;
+  height: 110px;
+  justify-content: center;
+  width: 110px;
+  transition: filter 0.3s ease-in;
+  color: #fff;
+  border-width: 0;
+}
+
+button:hover {
+  background: rgb(156, 156, 156);
+}
+
+button:focus {
+  outline: none;
+}
+
+.operator button {
+  background: rgb(255, 130, 0);
+}
+
+.operator button:hover{
+  background: #FFC7AF;
+}
+
+.operator button:focus {
+  background: #fff;
+  color: rgb(255, 130, 0);
+}
+
+.operator {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.clearKey{
+  background: rgb(156, 156, 156);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clearKey:hover{
+  background: rgb(228, 225, 225);
 }
+
+.zero {
+  width: 230px;
+  text-align: left;
+  border-radius: 57.5px;
+  padding-left: 43px;
+}
+
