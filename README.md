@@ -1,7 +1,9 @@
 Calculatorアプリ
 
-１.起動方法  
-①yarn startを実行  
+１.起動方法
+①masterブランチにて、ファイルをダウンロード
+②展開後、
+yarn startを実行  
 ②http://localhost:3000  
 にアクセス  
 
