@@ -1,1 +1,1 @@
-# calculator
+masterブランチにて作成
